@@ -1,0 +1,72 @@
+* {
+  /* border: 1px solid pink;*/
+   box-sizing: border-box;
+   font-family: 'Open Sans', Optima, sans-serif;
+   margin:0;
+   padding:0;
+ }
+
+header {
+	background-color: #404041;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+header h1 {
+  color: #DD1972;
+	font-family:'Open-Sans', sans-serif;
+	font-weight: 700;
+}
+
+header h2 {
+  color: rgb(250, 249, 249);
+	font-family:'Open-Sans', sans-serif;
+	font-weight: 700;
+}
+
+header span {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 300;
+}
+
+.header-line {
+	text-decoration: line-through solid #f7f7f7;
+	color: #404041;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* .main-user-input
+.main-display-result {
+  border: 2px solid rgb(172, 170, 170);
+	display: flex;
+  flex-direction: column;
+  height: 700px;
+	width: 50%;
+} */
+
+.main-user-input {
+  border: 4px solid grey;
+  height: 700px;
+  width: 50%;
+}
+
+.main-display-result {
+  border: 4px solid grey;
+  height: 700px;
+  width: 50%;
+}
+
+.set-guess-range {
+  border: 1px solid #D0D2D3;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 98%;
+}
